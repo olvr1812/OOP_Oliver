@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F972DB5F287F33A000F42063 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB5E287F33A000F42063 /* main.swift */; };
+		F972DB66287F33B600F42063 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB65287F33B600F42063 /* Product.swift */; };
+		F972DB682881989600F42063 /* Chokolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB672881989600F42063 /* Chokolate.swift */; };
+		F972DB6A288198A300F42063 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB69288198A300F42063 /* Snack.swift */; };
+		F972DB6C288198C300F42063 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB6B288198C300F42063 /* Drink.swift */; };
+		F972DB6E288198CA00F42063 /* Supermarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F972DB6D288198CA00F42063 /* Supermarket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		F972DB5B287F33A000F42063 /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		F972DB5E287F33A000F42063 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F972DB65287F33B600F42063 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F972DB672881989600F42063 /* Chokolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chokolate.swift; sourceTree = "<group>"; };
+		F972DB69288198A300F42063 /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
+		F972DB6B288198C300F42063 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		F972DB6D288198CA00F42063 /* Supermarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supermarket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				F972DB5E287F33A000F42063 /* main.swift */,
+				F972DB65287F33B600F42063 /* Product.swift */,
+				F972DB672881989600F42063 /* Chokolate.swift */,
+				F972DB69288198A300F42063 /* Snack.swift */,
+				F972DB6B288198C300F42063 /* Drink.swift */,
+				F972DB6D288198CA00F42063 /* Supermarket.swift */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F972DB682881989600F42063 /* Chokolate.swift in Sources */,
 				F972DB5F287F33A000F42063 /* main.swift in Sources */,
+				F972DB6A288198A300F42063 /* Snack.swift in Sources */,
+				F972DB6E288198CA00F42063 /* Supermarket.swift in Sources */,
+				F972DB6C288198C300F42063 /* Drink.swift in Sources */,
+				F972DB66287F33B600F42063 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
