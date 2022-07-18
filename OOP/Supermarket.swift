@@ -22,16 +22,11 @@ class Supermarket {
     }
     
     func delGroceries(groceriesBarcode: Int) {
-        var flag = false
-        for i in 0..<bascket.count {
-            if bascket[i].checkBarcode() == groceriesBarcode {
-                bascket.remove(at: i)
-                flag = true
+        for i in bascket {
+            if let index = bascket.firstIndex(where: { $0.checkBarcode() == i.checkBarcode() }) {
+                bascket.remove(at: index)
                 break
             }
-        }
-        if !flag {
-            print("Товар в корзине не найден")
         }
     }
     
